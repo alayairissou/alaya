@@ -1,0 +1,14 @@
+---
+title: "Exercice Bondy"
+author: "Alaya Irissou"
+date: "10/03/2022"
+output: 
+  html_document: 
+    number_sections: yes
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+
+library(sf)
+zone <- st_read("data/vote.gpkg","zone")
+
